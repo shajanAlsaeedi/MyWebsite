@@ -1,0 +1,229 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900;1000&family=Gulzar&family=Tajawal:wght@300&display=swap');
+
+  *{
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Gulzar', serif;
+    font-family: 'Tajawal', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+header {
+
+    background-color: rgba(226, 223, 223, 0.384);
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+
+}
+
+.backg{
+  height: 100vh;
+  background-image: url(imges/b1.jpg);
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.name {
+color: darkolivegreen;
+text-decoration: none;
+font-size: 1.5em;
+font-weight: 800;
+text-transform: uppercase;
+}
+
+.service a{
+
+  color: rgb(2, 0, 0);
+  text-decoration: none;
+  font-size: 1.3em;
+  font-weight: 300;
+  padding-left: 30px;
+
+}
+.service a:hover{
+
+  color: darkcyan;
+
+}
+
+section{
+  padding: 200px 200px;
+}
+.home {
+
+  width: 100%;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.home h2 span{
+  color: darkolivegreen;
+  font-size: 1.9em;
+  font-weight: 600;
+  
+}
+
+.media a{
+
+  color: darkolivegreen;
+  font-size: 1.9em;
+ 
+  margin: 25px;
+  ;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  color: darkolivegreen;
+  font-size: 2.2em;
+  font-weight: 800;
+  margin-bottom: 30px;
+}
+
+.myinfo{
+  
+  text-align: center;
+  font-size: 1.5em;
+  color: rgb(84, 84, 84);
+
+
+
+}
+.divinfo{
+  background-color:#97d1b1b3
+  
+}
+.mylogo {
+  border-radius: 50%;
+  width: 20%;
+  position: absolute;
+  right: 160px;
+  bottom: 10;
+ 
+}
+
+
+.content {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.contenar {
+  background-color: #fff;
+  width: 21.25em;
+  text-align: center;
+  box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+  border-radius: 15px;
+  padding: 25px;
+  margin: 15px;
+  transition: 0.7s ease;
+}
+
+.contenar:hover {
+  transform: scale(1.1);
+}
+.card{
+  text-align: center;
+  font-weight: 500;
+}
+
+.info  {
+text-align: center;
+}
+
+.eicon{
+  text-align: center;
+  font-size: 1.5em;
+  
+
+}
+.eicon a{
+  color: rgb(68, 68, 68);
+  font-size: 1.5em;
+}
+
+footer {
+text-align: center;
+background-color:rgba(226, 223, 223, 0.384);
+
+width: 100%;
+}
+#footer .social-icons a{
+  font-size: 1.3em;
+  padding: 5px;
+  color: rgb(68, 68, 68);
+}
+
+
+@media only screen and (max-width: 576px){
+
+  .mylogo {
+    display: none;
+   
+  }
+  .home {
+
+    width: 100%;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-size: 0.8em;
+  }
+  .home h2 span{
+    color: darkolivegreen;
+    font-size: 1.2em;
+    font-weight: 600;
+    
+  }
+}
+@media only screen and (min-width: 576px) and (min-width: 576px) and (max-width: 767px) {
+
+  .mylogo {
+    display: none;
+   
+  }
+  .home {
+
+    width: 100%;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-size: 0.8em;
+  }
+  .home h2 span{
+    color: darkolivegreen;
+    font-size: 1.2em;
+    font-weight: 600;
+    
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+  .mylogo {
+    border-radius: 50%;
+    width: 20%;
+    position: absolute;
+    right: 60px;
+    bottom: 10;
+   
+  }
+}
+
+
